@@ -1,4 +1,4 @@
-package javaproject.hrms.core.adapters;
+package javaproject.hrms.core.utilities.adapters;
 
 import javaproject.hrms.entities.concretes.Candidate;
 

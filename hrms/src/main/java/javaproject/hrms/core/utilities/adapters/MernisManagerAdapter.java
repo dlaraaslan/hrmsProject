@@ -1,4 +1,4 @@
-package javaproject.hrms.core.adapters;
+package javaproject.hrms.core.utilities.adapters;
 
 import java.rmi.RemoteException;
 import java.util.Locale;
@@ -25,7 +25,7 @@ public class MernisManagerAdapter implements MernisService {
 			e.printStackTrace();
 		}
 				
-		return false;
+		return result;
 	}
 	
 }
