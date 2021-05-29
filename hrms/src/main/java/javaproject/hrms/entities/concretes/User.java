@@ -10,9 +10,11 @@ import javax.persistence.InheritanceType;
 import javax.persistence.Table;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 @Entity
 @Data
+@EqualsAndHashCode(callSuper=false)
 @Table(name="users")
 @Inheritance(strategy= InheritanceType.JOINED) 
 public class User {
