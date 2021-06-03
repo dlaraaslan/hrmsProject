@@ -3,6 +3,7 @@ package javaproject.hrms.business.concretes;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import javaproject.hrms.business.abstracts.CandidateService;
 import javaproject.hrms.core.utilities.results.DataResult;
@@ -12,7 +13,7 @@ import javaproject.hrms.core.utilities.results.SuccessResult;
 import javaproject.hrms.dataAccess.abstracts.CandidateDao;
 import javaproject.hrms.entities.concretes.Candidate;
 
-
+@Service
 public class CandidateManager implements CandidateService{
 
 	private CandidateDao candidateDao;
